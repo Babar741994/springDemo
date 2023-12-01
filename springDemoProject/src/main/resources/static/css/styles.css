@@ -1,0 +1,36 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+ 
+        .error-code {
+            font-size: 4em;
+            margin-bottom: 20px;
+            color: #e74c3c;
+        }
+
+        .error-message {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .back-home {
+            margin-top: 20px;
+        }
+
+         a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .back-home a:hover {
+            text-decoration: underline;
+        }
